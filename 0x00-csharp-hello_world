@@ -1,15 +1,13 @@
-Windows PowerShell
-Copyright (C) Microsoft Corporation. All rights reserved.
+using System;
 
-Try the new cross-platform PowerShell https://aka.ms/pscore6
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
 
-PS C:\Users\Dina\Desktop\0-new_project> dotnet new console
-The template "Console Application" was created successfully.
-
-Processing post-creation actions...
-Running 'dotnet restore' on C:\Users\Dina\Desktop\0-new_project\0-new_project.csproj...  
-  Determining projects to restore...
-  Restored C:\Users\Dina\Desktop\0-new_project\0-new_project.csproj (in 403 ms).
-Restore succeeded.
-
-PS C:\Users\Dina\Desktop\0-new_project> 
